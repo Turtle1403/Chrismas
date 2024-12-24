@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001F3F;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.tree {
+    position: relative;
+    margin: 0 auto;
+}
+
+.tree-image {
+    width: 20%;
+    height: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF4B2B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF5B2B;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 1s;
+}
